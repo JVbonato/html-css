@@ -1,20 +1,31 @@
 body {
     background-color: #ffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+}
+
+body h1 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
 }
 
 a {
-    background-color: #ffd900c5;
-    color: rgb(85, 83, 83);
+    background-color: #f4f804;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    padding: 1px;
-    border-radius: 2px;
-    ;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.829);
+    transition: all .3s;
 }
 
 section {
+    background-color: rgba(128, 128, 128, 0.404);
     padding-top: 10px;
 }
 
@@ -23,8 +34,11 @@ section {
 }
 
 .jacare {
-    background-color: green;
-    color: white;
+    background-color: #f4f804d0;
+    color: #000000;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-shadow: 1px;
     max-width: 400px;
     padding: 10px;
     margin: auto;
@@ -32,8 +46,9 @@ section {
 }
 
 .trifoil {
-    background-color: blue;
-    color: white;
+    background-color: #f4f804;
+    color: #000000;
+    border: 1px solid black;
     max-width: 400px;
     padding: 10px;
     margin: auto;
@@ -44,7 +59,7 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 2px;
+    padding: 5px;
     margin-top: 20px;
     border-radius: 10px;
 }
